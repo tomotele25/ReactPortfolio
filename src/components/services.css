@@ -1,0 +1,17 @@
+.Container {
+  background: #f05941;
+  height: 300px;
+  width: 300px;
+  color: white;
+  border-radius: 16px;
+
+  padding: 10px 0px 0px 20px;
+}
+.Container:hover {
+  transition: 1s ease-in-out;
+  background: linear-gradient(transparent, #f05941, transparent);
+  border: 2px solid #f05941;
+}
+.blog__content {
+  padding: 50px 0px 0px 30px;
+}

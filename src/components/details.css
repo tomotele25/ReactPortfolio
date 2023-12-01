@@ -1,0 +1,19 @@
+.details__container {
+  margin-bottom: 30px;
+}
+
+.details__container h3 {
+  font-size: 16px;
+  line-height: 2.5rem;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .details__container {
+    width: 300px;
+  }
+  .details__container h3 {
+    line-height: 1.5rem;
+    font-size: 16px;
+  }
+}

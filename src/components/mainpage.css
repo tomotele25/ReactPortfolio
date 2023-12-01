@@ -1,0 +1,37 @@
+.mainpage__container {
+  margin-left: 350px;
+}
+.services__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #f05941;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 29px;
+}
+.blog {
+  display: flex;
+  gap: 30px;
+}
+i {
+  width: 100px;
+  color: black;
+  padding: 20px 0px 30px 80px;
+}
+@media only screen and (max-width: 600px) {
+  .mainpage__container {
+    margin-left: 20px;
+  }
+  .services__header {
+    font-size: 20px;
+    margin-right: 100px;
+  }
+  .blog {
+    display: grid;
+  }
+  .footer {
+    margin-bottom: 50px;
+    height: 1070px;
+  }
+}
